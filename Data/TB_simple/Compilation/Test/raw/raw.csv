@@ -1,0 +1,38 @@
+Compounds;SMILES;measured TBs
+Heptane;CCCCCCC;371.55
+1,1,1,2-Tetrachloro-2,2-difluoroethane;FC(F)(Cl)C(Cl)(Cl)Cl;364.65
+1,1,1-Trichloro-2,2,3,3,3-pentafluoropropane;FC(F)(F)C(F)(F)C(Cl)(Cl)Cl;347.15
+1,1,2,2-Tetrachloro-1,2-difluoroethane;FC(Cl)(Cl)C(F)(Cl)Cl;365.95
+1,1,2,2-Tetrachloro-1-fluoroethane;FC(Cl)(Cl)C(Cl)Cl;389.75
+1,1,2-Trichloro-1,2-difluoroethane;FC(Cl)C(F)(Cl)Cl;345.65
+1,2,2,3-Tetrachloro-1,1,3,3-tetrafluoropropane;FC(F)(Cl)C(Cl)(Cl)C(F)(F)Cl;385.15
+1,1,1-Trichloroethane;CC(Cl)(Cl)Cl;346.95
+1,2-Dichloro-2-fluoropropane;CC(F)(Cl)CCl;361.75
+1,2-Difluoroethane;FCCF;283.65
+1-Chloro-1,2,2-Trifluoroethane;FC(F)C(F)Cl;290.15
+2-Chloro-1,1,1-Trifluoroethane;FC(F)(F)CCl;279.29999999999995
+1-Chloro-2,2-difluoropropane;CC(F)(F)CCl;328.15
+2,3,3,3-Tetrafluoropropene;FC(=C)C(F)(F)F;244.85
+Chloroethane;CCCl;285.35
+Chloroethylene;ClC=C;259.25
+Difluoromethyl 2,2,2-trifluoroethyl ether;FC(F)OCC(F)(F)F;302.35
+Isobutane;CC(C)C;261.54999999999995
+Octafluoropropane;FC(F)(F)C(F)(F)C(F)(F)F;236.55
+Trichloroethylene;ClC=C(Cl)Cl;360.36
+1,1,2-Trichloro-2,2-difluoroethane;FC(F)(Cl)C(Cl)Cl;345.04999999999995
+1,2,2,2-Tetrafluoroethyl difluoromethyl ether;FC(F)OC(F)C(F)(F)F;296.45
+1,2-Dichloro-1,1,2,3,3,3-hexafluoropropane;FC(F)(F)C(F)(Cl)C(F)(F)Cl;307.25
+2-Chloro-1,1,1,3,3,3-hexafluoropropane;FC(F)(F)C(Cl)C(F)(F)F;287.25
+Chlorofluoromethane;FCCl;264.04999999999995
+Tetradecafluorohexane;FC(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F;330.29
+Trichloro(fluoro)methane;FC(Cl)(Cl)Cl;296.85
+Trifluoromethane;FC(F)F;191.05
+3-Methyl-1-Butene;CC(C)C=C;293.25
+1-Ethyl-2-methylbenzene;CCc1ccccc1C;438.35
+2-Chloropropane;CC(C)Cl;308.85
+2,4-Dichloro-1-methylbenzene;Cc1ccc(Cl)cc1Cl;474.15
+2,2,4-Trimethylpentane;CC(C)CC(C)(C)C;372.37
+1,2-Dichloropropane;CC(Cl)CCl;369.55
+1-Chlorobutane;CCCCCl;351.54999999999995
+Octane;CCCCCCCC;398.82
+Propyl Acetate;CCCOC(C)=O;374.45
