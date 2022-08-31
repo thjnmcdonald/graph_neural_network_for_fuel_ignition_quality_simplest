@@ -1,5 +1,7 @@
 # Graph neural networks for ignition quality prediction
 
+small test to see if git push and pull works
+
 This is the source code for the paper **Graph Neural Networks for Prediction of Fuel Ignition Quality** (**[https://doi.org/10.1021/acs.energyfuels.0c01533](https://doi.org/10.1021/acs.energyfuels.0c01533)**). 
 
 You can also run the code via our free web frontend avaibale here: [https://www.avt.rwth-aachen.de/gnn](https://www.avt.rwth-aachen.de/gnn)
