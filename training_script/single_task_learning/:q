@@ -8,7 +8,7 @@ def bash_script_generator():
 
 
 def bash_script_generator_2(name, reps, num_layers, node_list):
-    with open(f'{name}.bash', 'w+') as bash_script:
+    with open(f'training_script/single_task_learning/{name}.bash', 'w+') as bash_script:
         for gnn in ['GCN', 'GraphConv']:
             for layers in range(1,num_layers):
                 for nodes in node_list:
