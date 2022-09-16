@@ -23,7 +23,7 @@ from torch.nn import Sequential, Linear, ReLU, GRU
 import torch.nn.functional as F
 from torch_scatter import scatter_mean, scatter_add, scatter_max
 import torch_geometric.transforms as T
-from torch_geometric.nn import NNConv, GCNConv, GraphConv
+from torch_geometric.nn import GCNConv, SAGEConv
 from smiles_to_molecular_graphs.read_in_singletask import FUELNUMBERS
 from k_gnn import GraphConv, DataLoader, avg_pool
 from k_gnn import TwoLocal
@@ -171,7 +171,8 @@ model_type_name = model_types[model_type_int]
 
 gnn_layer_by_name = {
     "GCN": GCNConv,
-    "GraphConv": GraphConv
+    "GraphConv": GraphConv,
+    "GraphSAGE": SAGEConv
 }
 
 
@@ -187,12 +188,12 @@ class Net(torch.nn.Module):
 
         for l_idx in range(num_layers - 1):
             layers += [
-                gnn_layer(in_channels, out_channels, bias = False)
+                gnn_layer(in_channels, out_channels, bias = False, aggr = 'add')
             ]
             in_channels = c_hidden
 
         layers += [
-                gnn_layer(in_channels, c_out, bias = False)
+                gnn_layer(in_channels, c_out, bias = False, aggr = 'add')
             ]
 
         self.layers = torch.nn.ModuleList(layers)
